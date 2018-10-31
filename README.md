@@ -48,6 +48,7 @@ aliyun <product> <operation> [--parameter1 value1 --parameter2 value2 ...]
 	    - `cols` 为表格的列名，需要与 JSON 数据中的字段相对应。如 ecs DescribeInstances 接口返回结果中的字段 InstanceId 以及 Status。
 		    以 查询 ECS 地域 指令为例：`aliyun ecs DescribeRegions --output cols=RegionId,LocalName`
 	        该指令的数据结果将以表格的形式输出，以 RegionId、LocalName 作为表头。执行结果如图：
+			
 			![avatar](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/74637/cn_zh/1528957092904/20180614141757.png)
 	
 ### 调用示例
